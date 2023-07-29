@@ -4,9 +4,13 @@ import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers';
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
+  resolve: {
+    alias: [
+      { find: '@', replacement: "./src" },
+    ],
+  },
   plugins: [
     vue(),
-// your plugin installation
     Components({
       resolvers: [
         AntDesignVueResolver({
