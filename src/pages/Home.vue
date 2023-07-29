@@ -1,11 +1,12 @@
 <template>
-    <div>
-        <Title title="Pokemon Card Store" />
-    </div>
+    <router-link to="/sell">
+        <a-button type="primary" style="margin-bottom: 24px;">Sell</a-button>
+    </router-link>
+
+    <table-list />
 </template>
 
 <script setup lang="ts">
-import Title from '@/components/shared/Title.vue';
 </script>
 
 <style scoped></style>

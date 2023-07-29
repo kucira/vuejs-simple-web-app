@@ -1,7 +1,5 @@
 <template>
-    <div>
-        detail
-    </div>
+    <detail-form />
 </template>
 
 <script setup lang="ts">

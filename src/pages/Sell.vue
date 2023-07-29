@@ -1,7 +1,5 @@
 <template>
-    <div>
-        sell
-    </div>
+    <form-sell />
 </template>
 
 <script setup lang="ts">

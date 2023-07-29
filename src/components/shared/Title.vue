@@ -1,7 +1,5 @@
 <template>
-    <div>
-        {{ title }}
-    </div>
+    <a-typography-title>{{ title }}</a-typography-title>
 </template>
 
 <script setup lang="ts">
