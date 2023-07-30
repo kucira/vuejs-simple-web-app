@@ -1,3 +1,12 @@
+export type CardType = {
+  key: number;
+  username: string;
+  cardName: string;
+  price: string;
+  email: string;
+  picture?: string;
+};
+
 const getCardList = (): any[] => {
   return [];
 };
